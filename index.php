@@ -28,7 +28,7 @@
 
     // 3.Soru cevabı
 
-    // 1-3 ve 30-32. satırlar
+    // 1-3 ve 35-37. satırlar
 
 ?>
     
