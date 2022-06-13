@@ -2,11 +2,13 @@
     include("header.php");
 ?>
 
+
+
 <?php
 
     // 1. Soru cevabı    
 
-    $yas = rand(0, 50);
+    $yas = $_POST("yas");
     if ($yas < 18 ) { 
     echo "Yaşınız Ehliyet Almaya Yetmiyor: $yas";
     }
