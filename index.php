@@ -8,7 +8,9 @@
 
     // 1. Soru cevabı    
 
-    $yas = $_POST("yas");
+    $yil = $_POST("yil");
+    $yas = 2022 - $yil;
+    
     if ($yas < 18 ) { 
     echo "Yaşınız Ehliyet Almaya Yetmiyor: $yas";
     }
